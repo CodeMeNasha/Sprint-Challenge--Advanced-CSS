@@ -6,13 +6,23 @@
 }
 
   .btn {
-      .the-button(10px, rgb(198, 50, 218));
+      .the-button(10px, darkslategrey);
       color: white;
       padding: 4%;
+
+      @media @phone {
+          width: 100%;
+          border-bottom: 3%;
+      }
 
           &:hover {
               background-color: white;
               border-radius: 30px;
-              color:  rgb(198, 50, 218);
+              color: darkslategrey;
         }// this closes the hover tag
+}
+
+.mobile-images () {
+    display: none;
+    align-items: center;
 }
