@@ -1,1 +1,18 @@
 // Mixins Here
+
+.the-button(@b, @c) {
+    border-radius: @b;
+    background-color: @c;
+}
+
+  .btn {
+      .the-button(10px, rgb(198, 50, 218));
+      color: white;
+      padding: 4%;
+
+          &:hover {
+              background-color: white;
+              border-radius: 30px;
+              color:  rgb(198, 50, 218);
+        }// this closes the hover tag
+}
