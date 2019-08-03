@@ -7,7 +7,6 @@
 @media (max-width: 500px) {
   .btn {
     width: 100%;
-    border-bottom: 3%;
   }
 }
 .btn:hover {
@@ -271,7 +270,6 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
-    margin: 0 auto;
   }
 }
 .home .walk .walk-text h3 {
